@@ -18,6 +18,13 @@
         >
 
         <Button
+            android:id="@+id/btn_demo_test"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="RxJava测试"
+            />
+
+        <Button
             android:id="@+id/btn_demo_schedulers"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"

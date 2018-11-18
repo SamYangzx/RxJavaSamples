@@ -26,6 +26,11 @@ public class MainFragment
         return layout;
     }
 
+    @OnClick(R.id.btn_demo_test)
+    void demoTest() {
+        clickedOn(new TestFragment());
+    }
+
     @OnClick(R.id.btn_demo_schedulers)
     void demoConcurrencyWithSchedulers() {
         clickedOn(new ConcurrencyWithSchedulersDemoFragment());
